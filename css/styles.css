@@ -424,23 +424,23 @@ textarea {
 
 /* ADVANTAGE */
 
-.advantage-title {
+.hidden-title {
   display: none;
 }
 
-.advantage-list {
+.advantage__list {
   display: flex;
 }
 
-.advantage-item:not(:last-child) {
+.advantage__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.advantage-item {
+.advantage__item {
   width: calc((100% - 90px) / 4);
 }
 
-.advantage-box {
+.skills__box {
   display: flex;
   background: var(--grey-color);
   border-radius: 4px;
@@ -448,12 +448,6 @@ textarea {
   height: 120px;
   align-items: center;
   justify-content: center;
-}
-
-.advantage-icon {
-  display: flex;
-  width: 70px;
-  height: 70px;
 }
 
 .advantage-name {
@@ -486,20 +480,20 @@ textarea {
   color: var(--secondary-color);
 }
 
-.work-list {
+.work__list {
   display: flex;
 }
 
-.work-list img {
+.work__list img {
   display: block;
 }
 
-.work-item {
+.work__item {
   position: relative;
   display: inline;
 }
 
-.work-item:not(:last-child) {
+.work__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -515,6 +509,7 @@ textarea {
 padding-top: 27px;
 padding-bottom: 27px;
 font-size: 14px;
+font-weight: 700;
 line-height: 1.14;
 text-align: center;
 color: var(--background-color);
